@@ -1,2 +1,2 @@
 #!/bin/bash
-head -c --line=3NUM iacta
+head -n 3 | tail -n 1 iacta
