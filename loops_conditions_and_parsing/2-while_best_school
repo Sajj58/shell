@@ -6,5 +6,5 @@ while [ $bestschool == 10 ]; do
 printf "Best School\n";
 if [[ "$HI == 9 ]]; then
 printf "HI\n";
-((best school++))
+((bestschool++))
 done;
