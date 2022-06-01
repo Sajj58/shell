@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 # This is my bash script
-bestscholl=0
-while [ $bestschool -ne 10 ]; do
-    printf "Best School\n"
-if [[ "$bestschool" -eq 8 ]]; then
-    print "Hi\n"
-fi
-    ((bestschool++));
+bestschool=0;
 
+until [ $bestschool -eq 10 ]; do
+    printf "Best School\n";
+    ((bestschool++))
 done;
 
