@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # This is my bash script
 bestschool=0;
-while [ $bestschool == 10 ]; do
+
+while [ $bestschool == 10 ]; do	
 printf "Best School\n";
 if [[ "$HI  == 9 ]]; then
 printf "Hi\n";
