@@ -4,7 +4,7 @@ bestschool=0;
 
 while [ $bestschool == 10 ]; do	
 printf "Best School\n";
-if [[ "$Hi  == 9 ]]; then
-printf "Hi\n";
+if [[ "$hi  == 9 ]]; then
+printf "hi\n";
 ((bestschool++))
 done;
