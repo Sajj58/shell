@@ -2,7 +2,7 @@
 # This is my bash script
 
 bestschool=0;
-while [ "$bestschoo" -ne 10 ]; do	
+while [ "$bestschool" -ne 10 ]; do	
         printf "Best School\n";
         ((bestschool++))
 done;
