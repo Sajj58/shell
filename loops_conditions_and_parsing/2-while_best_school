@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # This is my bash script
-bestschool=0;
 
-while [ $bestschool == 10 ]; do	
-printf "Best School\n";
-if [[ "$hi  == 9 ]; then
-printf "hi\n";
-((bestschool++))
+bestschool=0;
+while [ "$bestschoo" -ne 10 ]; do	
+        printf "Best School\n";
+        ((bestschool++))
 done;
