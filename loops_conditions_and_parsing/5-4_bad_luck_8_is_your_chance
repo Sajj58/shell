@@ -5,8 +5,9 @@ while [ $bestschool -ne 10 ]; do
     if [[ "bestschool" -eq 3 ]]; then
         printf "bad luck\n"
     elif [[ "$bestschool" -eq 7 ]]; then
+        printf "good luck\n"
     else
-       printf "good luck\n"
+        printf "Best school\n"    
     fi
     ((bestschool++))
 done;    
