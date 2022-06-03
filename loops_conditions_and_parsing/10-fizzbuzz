@@ -13,7 +13,7 @@ while [ "$i" -ne 101 ]; do
         printf "Buzz\n"
         # sinon affiche le nombre 
     else
-        echo"$i"
+        echo "$i"
     fi
     ((i++))
 done
