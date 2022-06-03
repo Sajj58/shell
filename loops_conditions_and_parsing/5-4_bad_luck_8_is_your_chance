@@ -7,7 +7,7 @@ while [ $bestschool -ne 10 ]; do
     elif [[ "$bestschool" -eq 7 ]]; then
         printf "good luck\n"
     else
-        printf "Best school\n"    
+        printf "Best School\n"    
     fi
     ((bestschool++))
 done;    
