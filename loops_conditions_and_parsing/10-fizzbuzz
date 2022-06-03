@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# test 10
+i=1
+while [ "$i" -ne 101 ]; do
+    #  si multiple de 3 et de 5
+    if (( "$i" ‰ 3 == 0 && "$i" % 5 == 0 )) ; then
+        printf "FizzBuzz\n"
+        # si multiple de 3
+    elif  (( "$i" % 3 == 0 )) ; then
+        printf "Fizz\n"
+        # si multiple 3
+    elif (( "$i" % 5 == 0 )) ; then
+        printf "Buzz\n"
+        # sinon affiche le nombre 
+    else
+        echo"$i"
+    fi
+    ((i++))
+done
