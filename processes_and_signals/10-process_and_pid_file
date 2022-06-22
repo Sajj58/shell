@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#0
+while :
+do
+	echo "To infinity and beyond"
+	echo "I hate the kill command"
+	echo "I am invincible!!!"
+	echo "Y U no love me?!"
+done
